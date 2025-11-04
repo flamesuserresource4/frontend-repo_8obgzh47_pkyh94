@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Services from './components/Services';
 import FeaturedWork from './components/FeaturedWork';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,9 +9,9 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Services />
         <FeaturedWork />
       </main>
-      <Footer />
     </div>
   );
 }
